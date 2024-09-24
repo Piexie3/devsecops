@@ -17,7 +17,12 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
+    #testing the os releases
+    strategy:
+      # matrix isused when you want to use multiple os releases
+      matrix:
+        os: [ubuntu-latest,windows-latest]
 
     steps:
     - uses: actions/checkout@v4
@@ -29,3 +34,6 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+
+publish:
+  needs: build
