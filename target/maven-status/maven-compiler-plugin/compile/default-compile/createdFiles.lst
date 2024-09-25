@@ -1,0 +1,16 @@
+devopsbackend/service/JWTUtils.class
+devopsbackend/CorsConfig.class
+devopsbackend/service/UsersManagementService.class
+devopsbackend/config/CorsConfig$1.class
+devopsbackend/entity/OurUsers.class
+devopsbackend/config/CorsConfig.class
+devopsbackend/UsersManagementSystemApplication.class
+devopsbackend/config/JWTAuthFilter.class
+devopsbackend/CorsConfig$1.class
+devopsbackend/repository/UsersRepo.class
+devopsbackend/SecurityConfig.class
+devopsbackend/dto/ReqRes.class
+devopsbackend/service/OurUserDetailsService.class
+devopsbackend/controller/UserManagementController.class
+devopsbackend/config/SecurityConfig.class
+devopsbackend/JWTAuthFilter.class

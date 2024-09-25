@@ -1,0 +1,14 @@
+/home/kali/Documents/projects/java/devsecops/src/main/java/devopsbackend/CorsConfig.java
+/home/kali/Documents/projects/java/devsecops/src/main/java/devopsbackend/JWTAuthFilter.java
+/home/kali/Documents/projects/java/devsecops/src/main/java/devopsbackend/SecurityConfig.java
+/home/kali/Documents/projects/java/devsecops/src/main/java/devopsbackend/UsersManagementSystemApplication.java
+/home/kali/Documents/projects/java/devsecops/src/main/java/devopsbackend/config/CorsConfig.java
+/home/kali/Documents/projects/java/devsecops/src/main/java/devopsbackend/config/JWTAuthFilter.java
+/home/kali/Documents/projects/java/devsecops/src/main/java/devopsbackend/config/SecurityConfig.java
+/home/kali/Documents/projects/java/devsecops/src/main/java/devopsbackend/controller/UserManagementController.java
+/home/kali/Documents/projects/java/devsecops/src/main/java/devopsbackend/dto/ReqRes.java
+/home/kali/Documents/projects/java/devsecops/src/main/java/devopsbackend/entity/OurUsers.java
+/home/kali/Documents/projects/java/devsecops/src/main/java/devopsbackend/repository/UsersRepo.java
+/home/kali/Documents/projects/java/devsecops/src/main/java/devopsbackend/service/JWTUtils.java
+/home/kali/Documents/projects/java/devsecops/src/main/java/devopsbackend/service/OurUserDetailsService.java
+/home/kali/Documents/projects/java/devsecops/src/main/java/devopsbackend/service/UsersManagementService.java
