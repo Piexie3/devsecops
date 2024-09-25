@@ -16,7 +16,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ${{ matrix.os }}
     #testing the os releases
     strategy:
@@ -35,5 +34,14 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
 
-# publish:
-#   needs: build
+    - name: Build and push docker image
+      # pipe symbol is a multiline syntax in .yaml file
+      # run: |
+      # docker login [cred]
+      # docker build ....
+      # without writting our own we use actions in market place
+      uses: GlueOps/github-actions-build-push-containers@v0.3.7
+      with:
+        registry: "docker.io"
+        dockerhub_username: ${{ secrets.DOCKERHUB_USERNAME }}
+        dockerhub_password: ${{ secrets.DOCKERHUB_PASSWORD }}
